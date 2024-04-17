@@ -12,7 +12,7 @@ const Card = () => {
         </div>
       </div>
       <div className="col-sm-4">
-        <div className="card bg-success text-white">
+        <div className="card bg-danger text-white">
           <div className="card-body">
             <h5 className="card-title mb-4">Card 2</h5>
             <p className="card-text">This is card 2 content.</p>
@@ -20,7 +20,7 @@ const Card = () => {
         </div>
       </div>
       <div className="col-sm-4">
-        <div className="card bg-warning text-dark">
+        <div className="card bg-success text-white">
           <div className="card-body">
             <h5 className="card-title mb-4">Card 3</h5>
             <p className="card-text">This is card 3 content.</p>
