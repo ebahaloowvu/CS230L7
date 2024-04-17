@@ -9,6 +9,8 @@ const Navbar = () => {
             <a className="navbar-brand" href="#" style={{ fontSize: "20px" }}>
               Navbar
             </a>
+          </li>
+          <li className="nav-item active">
             <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
               Home <span className="sr-only"></span>
             </a>
