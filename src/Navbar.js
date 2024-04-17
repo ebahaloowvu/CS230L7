@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          Your Brand
         </a>
         <button
           className="navbar-toggler"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Home <span className="sr-only"></span>
+                Home <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
@@ -37,10 +37,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* Move the form element to the right */}
+        {/* Move the search box to the right */}
         <form className="form-inline my-2 my-lg-0 ml-auto">
           <input
-            className="form-control mr-sm-2"
+            className="form-control mr-sm-2 ml-auto" // Add ml-auto class here
             type="search"
             placeholder="Search"
             aria-label="Search"
