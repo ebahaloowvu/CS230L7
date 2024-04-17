@@ -6,20 +6,20 @@ const Navbar = () => {
       <div className="container justify-content-between">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="navbar-brand" href="#" style={{ fontSize: "24px" }}>
+            <a className="navbar-brand" href="#" style={{ fontSize: "20px" }}>
               Navbar
             </a>
-            <a className="nav-link" href="#" style={{ fontSize: "24px" }}>
+            <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
               Home <span className="sr-only"></span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
               Contact
             </a>
           </li>
