@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Your Brand
+          Navbar
         </a>
         <button
           className="navbar-toggler"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
+                Home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">
