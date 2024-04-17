@@ -8,14 +8,11 @@ function App() {
     <div className="App">
     
       <Navbar />
-    <h1>CS 230L</h1>
+        <h1>CS 230L</h1>
         <h2>Section - 01</h2>
         <p>WVU ID: 800416929</p>
         <p>Hi, I am Ehsan Bahaloo.</p>
-      <div className="card-container">
         <Card title="Card 1" content="Content for Card 1" />
-      </div>
-      
     </div>
   );
 }
